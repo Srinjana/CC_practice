@@ -10,7 +10,7 @@ def answer(digit, depth, start):
     for i in range(start):
         if digit == depth:
             val += 1
-        answer(digit, depth+1, start-1)
+        answer(digit, depth+1, start-i)
 
 
 ans = 0 

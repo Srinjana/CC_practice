@@ -4,7 +4,7 @@
 # Return: The function must return an INTEGER denoting the sum of answers for all distinct distributions
 # Author @Srinjana
 
-# Since cost of job ranges 0-9 , upper lim of cost = 9+1 = 10
+# Since cost ranges 0-9 , upper lim of cost = 9+1 = 10
 cost_lim = 10
 
 # RECURSIVE FUNCTION
@@ -18,12 +18,10 @@ def func (start, depth, n):
 
 n = int(input())
 ans = 0
-a = []
 
 for i in range (n):
-    a = a.append(i)
-    # a = (int(input()))
+    a = (int(input()))
     for i in range (0, cost_lim):
-        ans += func(i, 0, a[i])
+        ans += func(i, 0, a)
 
 print(ans)
