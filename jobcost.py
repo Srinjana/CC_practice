@@ -15,7 +15,7 @@ def answer(digit, depth, start):
 
 ans = 0 
 val = 0
-for _ in range (int(input())):
+for __ in range (int(input())):
     val = 0
     depts = int(input())
     answer(depts, 1, 10)

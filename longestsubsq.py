@@ -1,4 +1,4 @@
-# Consider a non-empty string instrcontaining only lower-case alphabets. Print the Output based on the below Logic.
+# Consider a non-empty string instr containing only lower-case alphabets. Print the Output based on the below Logic.
 # 1. Identify and print the longest sub-sequence of at least 3 alphabets between vowels and consonants possible from instr. The sub-sequence can start with a vowel or a consonant
 #      -A sub-sequence of a string str is the possible set of characters from str starting from left to right.
 # 2.  If more than one such longest sub-sequences are identified print the one having the highest sum of ASCII Values of its Alphabets.

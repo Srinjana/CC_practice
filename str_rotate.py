@@ -17,7 +17,7 @@ def rotatoPotato (s1, d1):
     d1 = list(str(d1))
     s2 = 0
     for i in d1:
-        s2+=int(i)**2
+        s2 += int(i)**2
     if s2%2 == 0:
         return s1[-1:]+s1[:-1]  # single place rotation
     else:

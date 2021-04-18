@@ -1,4 +1,4 @@
-# a string has a mixture of letter, integer and special char. from here fin the largest even number combination possible from the available digits after removing duplicates. If no even number, return -1.
+# a string has a mixture of letter, integer and special char. from here find the largest even number combination possible from the available digits after removing duplicates. If no even number, return -1.
 # Author @Srinjana
 
 import itertools

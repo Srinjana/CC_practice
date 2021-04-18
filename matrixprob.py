@@ -9,10 +9,7 @@ matrix = []
 for r in range (row):
     a = list(map(int, input().split()))
     matrix.append(a)
-    # a=[]
-    # for c in range (col):
-    #     a.append(int(input()))
-    # matrix.append(a)
+    
 
 for r in range (0,row):
     for c in range (0,col):

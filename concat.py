@@ -1,4 +1,4 @@
-# input a string of comma seperated numbers . Considering 5 always comes before 8, Add all numbers tht do not lie between 5 and 8 and again concatenate all the numbers that lie between 5 and 8 in the given question. Add the two sums and return the final output
+# input a string of comma seperated numbers . Considering 5 always comes before 8, Add all numbers tht do not lie between 5 and 8 and again concatenate all the numbers that lie between 5 and 8 in the given question. Add the two obtained numbers and return the final output
 # Author @Srinjana
 
 

@@ -14,10 +14,11 @@ for i in range (N):
     gifts.append(int(input()))
 for i in range(N):
     boxes.append(int(input()))
+
 for i in range(N):
     for j in range(N):
         if(gifts[i]<boxes[j]):
-            count+= 1
-            boxes[j] =-1
+            count += 1
+            boxes[j] = -1
             break
 print(N-count)

@@ -17,6 +17,7 @@ n1 = len(a)
 n2 = n1//2
 sums = sum(a)/2
 # print (sums)
+
 # THIS FUNCTION PERFORMS GROUPING
 def answer(lenfull, lnsubset, sumation):
     if lenfull < (lnsubset-1):
