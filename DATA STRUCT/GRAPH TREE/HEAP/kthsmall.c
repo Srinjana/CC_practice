@@ -1,6 +1,9 @@
-git 
-
+// kth smallest element of an array of size n without swapping
 #include <stdio.h>
+#include <conio.h>
+
+clrscr();
+
 void swap(int *a, int *b)
 {
     *a = *a + *b;
@@ -34,7 +37,7 @@ void buildMinHeap(int a[], int size)
 int kthsmallest(int a[], int size, int k)
 {
     k = size - k + 1;
-    int minHeap[k];
+    int minHeap[1000];
     int i;
     for (i = 0; i < k; i++)
         minHeap[i] = a[i];
