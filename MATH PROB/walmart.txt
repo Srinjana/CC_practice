@@ -1,0 +1,38 @@
+
+
+++++++ Question 1 +++++++
+
+
+You are given an array A of size N.  Initially all the elements of the array are zero.
+
+Also, you have an infinite length array S which holds the property that the index is equal to the value of the array i.e for each i(i >= 1), S[i] = i.
+
+Now, you have Q queries to perform on array A. Each query contains two variables L and R.
+
+For each query you have to perform the following operation:
+
+For all index i, where L <= i <= R you have to add the value of the array S from the starting position incrementing its positions to the array element at index i, i.e
+
+initialize j = 1
+
+for each i = L to R:
+
+A[i] = A[i] + S[j]
+
+j = j+1
+
+After performing Q queries, you need to output the final values present in array A.
+
+
+
++++++++Question 2 ++++++++
+
+
+Tomorrow is Kerry’s birthday. Jim is planning to gift her a rooted tree with n nodes. Nodes are numbered from 1 to n, rooted at node 1. Every node has a cost associated with it and a color either black or white. It’s been years and Jim know exactly what combination of colors Kerry will love. So, he knows which target color(Black/White) every node should have at the end.
+
+To do so, he can perform the following operation any number of times:
+
+Select any node p except a leaf node, and swap colors of any two nodes in the subtree of node p. This operation costs equal to the cost associated with the node p.
+He wants that after performing such operations every node finally has the color corresponding to its target.
+
+Help him find out the minimum total cost for such operations after which every node has the corresponding target color, or find out if that is impossible.
