@@ -4,9 +4,10 @@ N = int(input())
 q = int(input())
 # l = []
 # r = []
+lst = []
 for _ in range(q):
-    l, r = map(int, input().split())
+    lst.append(list(map(int, input().split())))
 
-# for i in range(len(l)):
-#     print(l[i])
-print(l)
+for i in range(len(lst)):
+    print(lst[i])
+print(*lst)
