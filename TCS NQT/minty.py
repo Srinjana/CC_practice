@@ -11,3 +11,12 @@
 # 4 2
 # Output:
 # 7
+
+mints, length = map(int, input().split())
+
+for i in range(1, length):
+    nxt = mints - 1
+    mints += nxt
+
+print(mints)
+
