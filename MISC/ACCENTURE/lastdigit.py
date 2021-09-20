@@ -1,4 +1,4 @@
-# input a and b, find the last digit of smaller^bigger
+# input a and b, find the last digit of smaller^bigger among a and b
 
 import math
 

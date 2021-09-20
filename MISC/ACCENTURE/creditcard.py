@@ -14,29 +14,19 @@
 import re
 
 t = int(input())
-
 numbers = []
-
 results = []
 
 for _ in range(t):
-
     numbers.append(input())
 
 for num in numbers:
 
-    if (re.match(r'^[986]', num) and
-
-        (re.match(r'([\d]{4}-){3}[\d]{4}$', num) or
-
-         re.match(r'[\d]{16}', num)) and
-
-            not re.search(r'(\d)\1{3,}', num.replace("-", ""))):
+    if (re.match(r'^[986]', num) and (re.match(r'([\d]{4}-){3}[\d]{4}$', num) or re.match(r'[\d]{16}', num)) and not re.search(r'(\d)\1{3,}', num.replace("-", ""))):
 
         results.append("Valid")
 
     else:
-
         results.append("Invalid")
 
 for i in results:

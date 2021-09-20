@@ -47,3 +47,6 @@ for i in range (length):
         o_arr.append(lst[i])
 e_arr = sorted(e_arr)
 o_arr = sorted(o_arr)
+
+res = e_arr[-2] + o_arr[-2]
+print(res)
